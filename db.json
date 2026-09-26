@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "name": "Can Boz",
+      "studentClass": "third",
+      "gpa": "110",
+      "id": "1"
+    },
+    {
+      "name": "Katrina Litvinenko",
+      "studentClass": "first",
+      "gpa": "2.84",
+      "id": "4"
+    },
+    {
+      "name": "David Solo",
+      "studentClass": "third",
+      "gpa": "3.5",
+      "id": "5"
+    },
+    {
+      "name": "Sara Hussong",
+      "studentClass": "second",
+      "gpa": "2.2",
+      "id": "6"
+    }
+  ]
+}
