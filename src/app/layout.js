@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.css';
+import './globals.css';
 import Header from './components/header';
 
 const geistSans = Geist({
@@ -23,8 +24,8 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        <div className="container py-5">
+      <body className="app-shell">
+        <div className="page-shell">
           <Header />
           {children}
         </div>

@@ -1,0 +1,154 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: #1f1f20;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(25, 25, 27, 0.74), rgba(25, 25, 27, 0.74)),
+    url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.page-shell {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px 32px;
+}
+
+.site-header {
+  width: 100%;
+  min-height: 80px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.site-brand {
+  color: #f7f7f7;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-decoration: none !important;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+.home-hero {
+  padding-top: 32px;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: clamp(2.8rem, 5vw, 5rem);
+  line-height: 1.1;
+  font-weight: 700;
+  margin: 20px auto 36px;
+  letter-spacing: -0.04em;
+  color: #f3f3f3;
+}
+
+.add-page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+.add-title {
+  font-size: clamp(2rem, 3.2vw, 3.1rem);
+  font-weight: 700;
+  margin: 10px 0 28px;
+  color: #f4f4f4;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 1280px;
+}
+
+.add-form .form-control {
+  width: min(100%, 1260px);
+  min-height: 56px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9);
+  color: #111;
+  font-size: 1.05rem;
+  padding: 16px 18px;
+  box-shadow: none;
+}
+
+.add-form .form-control::placeholder {
+  color: rgba(17, 17, 17, 0.75);
+}
+
+.add-button {
+  width: fit-content;
+  min-width: 190px;
+  min-height: 54px;
+  border: none;
+  border-radius: 14px;
+  background: #4cc7c0;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 12px 22px;
+  margin-top: 8px;
+}
+
+.btn-primary {
+  background: #4cc7c0;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #3bb4b0;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px;
+  }
+
+  .site-nav {
+    margin-left: 0 !important;
+    gap: 16px;
+  }
+
+  .hero-title {
+    margin-top: 12px;
+  }
+}
