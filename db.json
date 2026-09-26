@@ -3,7 +3,7 @@
     {
       "name": "Can Boz",
       "studentClass": "third",
-      "gpa": "110",
+      "gpa": "3",
       "id": "1"
     },
     {
@@ -23,6 +23,13 @@
       "studentClass": "second",
       "gpa": "2.2",
       "id": "6"
+    },
+    {
+      "name": "Safa",
+      "studentClass": "First",
+      "gpa": "4",
+      "id": "Pu-JTHCNxYM"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
