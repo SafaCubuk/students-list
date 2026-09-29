@@ -29,6 +29,54 @@
       "studentClass": "First",
       "gpa": "4",
       "id": "Pu-JTHCNxYM"
+    },
+    {
+      "name": "Eren",
+      "studentClass": "first",
+      "gpa": "2",
+      "id": "UFYebtyezNg"
+    },
+    {
+      "name": "Deneme",
+      "studentClass": "Second",
+      "gpa": "3",
+      "id": "AP4k-s6FXpM"
+    },
+    {
+      "name": "deneme",
+      "studentClass": "2",
+      "gpa": "2",
+      "id": "rK7ZOFi4Sfs"
+    },
+    {
+      "name": "Safa",
+      "studentClass": "1",
+      "gpa": "1",
+      "id": "2_fk6KQSG3Y"
+    },
+    {
+      "name": "xwer",
+      "studentClass": "2",
+      "gpa": "4",
+      "id": "JM16GAWJM-8"
+    },
+    {
+      "name": "eren",
+      "studentClass": "1",
+      "gpa": "1",
+      "id": "Mg0jks8SDv4"
+    },
+    {
+      "name": "Safa",
+      "studentClass": "2",
+      "gpa": "2",
+      "id": "TZy-B6bEqH0"
+    },
+    {
+      "name": "Safa",
+      "studentClass": "2",
+      "gpa": "2",
+      "id": "CPZQMeEnRlg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
